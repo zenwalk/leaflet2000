@@ -7,7 +7,7 @@
     : "object" == typeof exports
     ? (exports.L = e(require("jQuery"), require("mapv")))
     : (t.L = e(t.jQuery, t.mapv));
-})("undefined" != typeof self ? self : this, function(
+})(window, function(
   __WEBPACK_EXTERNAL_MODULE_6__,
   __WEBPACK_EXTERNAL_MODULE_129__
 ) {
